@@ -6,7 +6,7 @@ const students = [
     { id: "21-094123", name: "Mathew White", github_username: "matheww", email: "matheww@whatever.com" },
     { id: "15-10312", name: "Dom Sundle", github_username: "domss", email: "domss.whatever.com" },
     { id: "7223", name: "Gehad Ismail", github_username: "Gehad93", email: "gehad.ismail@guc.edu.eg" },
-     { id:"40-15059", name: "Rafiq Mazen", github_username: "RafikiMazen", email: "rafeek.kamel@student.guc.edu.eg" }
+     { id:"40-15059", name: "Rafeek Mazen", github_username: "RafikiMazen", email: "rafeek.kamel@student.guc.edu.eg" }
 ];
 
 app.get('/', (request, response) => {
@@ -35,4 +35,4 @@ app.get('/api/students/:id', (request, response) => {
 });
 
 const port = 3000;
-app.listen(port, () => console.log(`Listening on port ${port}`));s
+app.listen(port, () => console.log(`Listening on port ${port}`));
